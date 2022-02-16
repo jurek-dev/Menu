@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+section.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: burlywood;
+    padding: 2em;
+}
+
+#yellow {
+    background-color: #FFE165;
+}
+
+
+div.container-item {
+
+}
+
+.flutuar {
+    animation: efeitoFlutuar 3s ease-in-out infinite;
+}
+
+@keyframes efeitoFlutuar {
+    0%, 100% {
+        transform: translateY(0)
+    }
+    50% {
+        transform: translateY(-10px)
+    }
+}
